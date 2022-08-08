@@ -71,15 +71,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>AllowUniversalSearch</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>AllowViewEditConvertedLeads</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>AllowViewKnowledge</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -132,10 +124,6 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>ChatterFileLink</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ChatterForSharePoint</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -251,10 +239,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>EditKnowledge</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>EditMyDashboards</name>
     </userPermissions>
     <userPermissions>
@@ -296,10 +280,6 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>EmailSingle</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EnableCommunityAppLauncher</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -451,14 +431,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>ManageKnowledge</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageKnowledgeImportExport</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>ManageLeads</name>
     </userPermissions>
     <userPermissions>
@@ -500,10 +472,6 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>ManageRoles</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageSearchPromotionRules</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -555,10 +523,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>ModifySecureAgents</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>NewReportBuilder</name>
     </userPermissions>
     <userPermissions>
@@ -604,10 +568,6 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>SendSitRequests</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ShareInternalArticles</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -696,9 +656,5 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>ViewSetup</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>WorkCalibrationUser</name>
     </userPermissions>
 </PermissionSet>

@@ -51,10 +51,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>AllowViewKnowledge</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>ApiEnabled</name>
     </userPermissions>
     <userPermissions>
@@ -64,10 +60,6 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>CanApproveFeedPost</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EnableCommunityAppLauncher</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -92,10 +84,6 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>RunReports</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ShareInternalArticles</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -124,9 +112,5 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>ViewSetup</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>WorkDotComUserPerm</name>
     </userPermissions>
 </PermissionSet>
