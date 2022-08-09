@@ -61,9 +61,7 @@ public class CreatePEApexTriggersController {
             }
             json = json + ']';
 
-            String myUrl = System.Url.getSalesforceBaseURL().toExternalForm().substringBefore('.visual').substringAfter('.');
-
-            myUrl = 'https://' + myUrl + '.salesforce.com';
+            String myUrl = System.Url.getSalesforceBaseURL().toExternalForm();
             HttpRequest req = new HttpRequest();
             req.setEndpoint(myUrl + '/services/data/v40.0/composite/batch');
             req.setMethod('POST');
@@ -76,7 +74,7 @@ public class CreatePEApexTriggersController {
             } else {
                 Http httpReq = new Http();
                 HttpResponse res = httpReq.send(req);
-                System.debug('HTTP RESPONSE' + res);
+                System.debug('HTTP RESPONSE: ' + res.getBody());
             }
         }
     }
