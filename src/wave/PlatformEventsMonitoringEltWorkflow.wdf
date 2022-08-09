@@ -1,34 +1,30 @@
 {
-  "nodes": {
-    "RegisterCountPlatformEventsObject": {
-      "action": "register",
-      "parameters": {
-        "label": "CountPlatformEventObjects",
-        "name": "CountPlatformEventObjects"
-      },
-      "sources": [
-        "GetCountPlatformEventObjects"
-      ]
-    },
-    "GetCountPlatformEventObjects": {
-      "action": "sobjectDigest",
-      "parameters": {
-        "fields": [
-          {
-            "name": "pecount__c"
-          },
-          {
-            "name": "pelabel__c"
-          },
-          {
-            "name": "pedatetime__c"
-          },
-          {
-            "name": "pename__c"
-          }
-        ],
-        "object": "CountPlatformEvent__c"
-      }
+  "GetCountPlatformEventObjects": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "pecount__c"
+        },
+        {
+          "name": "pelabel__c"
+        },
+        {
+          "name": "pedatetime__c"
+        },
+        {
+          "name": "pename__c"
+        }
+      ],
+      "object": "CountPlatformEvent__c"
+    }
+  },
+  "CountPlatformEventObjects": {
+    "action": "sfdcRegister",
+    "parameters": {
+      "name": "CountPlatformEventObjects",
+      "alias": "CountPlatformEventObjects",
+      "source": "GetCountPlatformEventObjects"
     }
   }
 }
